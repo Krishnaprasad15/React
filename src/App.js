@@ -7,7 +7,8 @@ import './App.css';
 // import Counter from "./components/Counter"
 // import ClickFunction from './components/clickFunction';
 // import ClickClass from './components/clickClass';
-import BindEvent from './components/BindEvent';
+// import BindEvent from './components/BindEvent';
+import ParentComp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,8 @@ function App() {
       {/* <Counter/> */}
       {/* <ClickFunction/> */}
       {/* <ClickClass/> */}
-      <BindEvent/>
+      {/* <BindEvent/> */}
+      <ParentComp/>
     </div>
   );
 }
