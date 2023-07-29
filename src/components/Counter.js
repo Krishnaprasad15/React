@@ -10,6 +10,8 @@ class Counter extends Component {
     increment(){
         this.setState({
             count: this.state.count+1
+        },()=>{
+          console.log(`counter is : ${this.state.count}`)
         })
     }
   render() {
