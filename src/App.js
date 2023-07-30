@@ -11,7 +11,8 @@ import './App.css';
 // import ParentComp from './components/ParentComp';
 // import ConditionalRend from './components/ConditionalRend';
 // import ListRend from './components/ListRend';
-import StyleSheet from './components/StyleSheet';
+// import StyleSheet from './components/StyleSheet';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       {/* <ParentComp/> */}
       {/* <ConditionalRend/> */}
       {/* <ListRend/> */}
-      <StyleSheet/>
+      {/* <StyleSheet/> */}
+      <Form/>
     </div>
   );
 }
