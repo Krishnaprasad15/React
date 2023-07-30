@@ -9,8 +9,8 @@ import './App.css';
 // import ClickClass from './components/clickClass';
 // import BindEvent from './components/BindEvent';
 // import ParentComp from './components/ParentComp';
-
-import ConditionalRend from './components/ConditionalRend';
+// import ConditionalRend from './components/ConditionalRend';
+import ListRend from './components/ListRend';
 function App() {
   return (
     <div className="App">
@@ -22,7 +22,8 @@ function App() {
       {/* <ClickClass/> */}
       {/* <BindEvent/> */}
       {/* <ParentComp/> */}
-      <ConditionalRend/>
+      {/* <ConditionalRend/> */}
+      <ListRend/>
     </div>
   );
 }
