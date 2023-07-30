@@ -10,7 +10,8 @@ import './App.css';
 // import BindEvent from './components/BindEvent';
 // import ParentComp from './components/ParentComp';
 // import ConditionalRend from './components/ConditionalRend';
-import ListRend from './components/ListRend';
+// import ListRend from './components/ListRend';
+import StyleSheet from './components/StyleSheet';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
       {/* <BindEvent/> */}
       {/* <ParentComp/> */}
       {/* <ConditionalRend/> */}
-      <ListRend/>
+      {/* <ListRend/> */}
+      <StyleSheet/>
     </div>
   );
 }
