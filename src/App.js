@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 // import Greet from './components/greet';
 // import Welcome from './components/welcome';
@@ -12,7 +12,8 @@ import './App.css';
 // import ConditionalRend from './components/ConditionalRend';
 // import ListRend from './components/ListRend';
 // import StyleSheet from './components/StyleSheet';
-import Form from './components/Form';
+// import Form from './components/Form';
+import Fragments from './components/Fragments';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,7 @@ function App() {
       {/* <ConditionalRend/> */}
       {/* <ListRend/> */}
       {/* <StyleSheet/> */}
-      <Form/>
+      <Fragments/>
     </div>
   );
 }
