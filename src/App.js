@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import EbHero from './components/EbHero';
+import ErrorBoundary from './components/ErrorBoundary';
+// import PortalDemo from './components/PortalDemo';
 // import ForwardParRef from './components/ForwardParRef';
 // import React, { Fragment } from 'react';
 // import Greet from './components/greet';
@@ -34,7 +36,16 @@ function App() {
       {/* <Fragments/> */}
       {/* <RefsDemo/> */}
       {/* <ForwardParRef/> */}
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
+      <ErrorBoundary>
+      <EbHero heroName='superman'/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <EbHero heroName='batman'/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <EbHero heroName='joker'/>
+      </ErrorBoundary>
     </div>
   );
 }
