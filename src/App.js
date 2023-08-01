@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import ForwardParRef from './components/ForwardParRef';
+import PortalDemo from './components/PortalDemo';
+// import ForwardParRef from './components/ForwardParRef';
 // import React, { Fragment } from 'react';
 // import Greet from './components/greet';
 // import Welcome from './components/welcome';
@@ -32,7 +33,8 @@ function App() {
       {/* <StyleSheet/> */}
       {/* <Fragments/> */}
       {/* <RefsDemo/> */}
-      <ForwardParRef/>
+      {/* <ForwardParRef/> */}
+      <PortalDemo/>
     </div>
   );
 }
