@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import ForwardParRef from './components/ForwardParRef';
 // import React, { Fragment } from 'react';
 // import Greet from './components/greet';
 // import Welcome from './components/welcome';
@@ -14,7 +15,7 @@ import './App.css';
 // import StyleSheet from './components/StyleSheet';
 // import Form from './components/Form';
 // import Fragments from './components/Fragments';
-import RefsDemo from './components/RefsDemo';
+// import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,8 @@ function App() {
       {/* <ListRend/> */}
       {/* <StyleSheet/> */}
       {/* <Fragments/> */}
-      <RefsDemo/>
+      {/* <RefsDemo/> */}
+      <ForwardParRef/>
     </div>
   );
 }
