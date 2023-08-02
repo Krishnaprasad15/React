@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import EbHero from './components/EbHero';
-import ErrorBoundary from './components/ErrorBoundary';
+import ClickCount from './components/ClickCount';
+import HoverCount from './components/HoverCount';
+// import EbHero from './components/EbHero';
+// import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
 // import ForwardParRef from './components/ForwardParRef';
 // import React, { Fragment } from 'react';
@@ -22,6 +24,8 @@ import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
     <div className="App">
+      <ClickCount/>
+      <HoverCount/>
       {/* /* <Greet/>
       <Welcome/> */}
       {/* <Message/> */}
@@ -37,7 +41,7 @@ function App() {
       {/* <RefsDemo/> */}
       {/* <ForwardParRef/> */}
       {/* <PortalDemo/> */}
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
       <EbHero heroName='superman'/>
       </ErrorBoundary>
       <ErrorBoundary>
@@ -45,7 +49,7 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
       <EbHero heroName='joker'/>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
     </div>
   );
 }
