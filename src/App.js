@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import PostList from './components/PostList';
+// import PostList from './components/PostList';
+import PostReq from './components/PostReq';
 // import ClickCount from './components/ClickCount';
 // import HoverCount from './components/HoverCount';
 // import Fun from './components/Render'
@@ -68,8 +69,9 @@ function App() {
       {/* <UserProvider value="Krishna">
         <ContextA />
       </UserProvider> */}
-
-      <PostList/>
+ 
+      {/* <PostList/> */}
+      <PostReq/>
     </div>
   );
 }
