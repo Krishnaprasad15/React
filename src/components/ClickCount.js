@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import HigherOrderComp from './HigherOrderComp'
+// import HigherOrderComp from './HigherOrderComp'
+
 
  class ClickCount extends Component {
   render() {
@@ -9,4 +10,4 @@ import HigherOrderComp from './HigherOrderComp'
     )
   }
 }
-export default HigherOrderComp(ClickCount)
+export default ClickCount

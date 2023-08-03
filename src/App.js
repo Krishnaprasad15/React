@@ -2,6 +2,7 @@
 import './App.css';
 import ClickCount from './components/ClickCount';
 import HoverCount from './components/HoverCount';
+import Fun from './components/Render'
 // import EbHero from './components/EbHero';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
@@ -24,8 +25,18 @@ import HoverCount from './components/HoverCount';
 function App() {
   return (
     <div className="App">
-      <ClickCount/>
-      <HoverCount/>
+      {/* <ClickCount/>
+      <HoverCount/> */}
+      <Fun
+        render={(count,handler)=>(
+          <ClickCount count={count} handler={handler}/>
+        )}
+      />
+      <Fun
+        render={(count,handler)=>(
+          <HoverCount count={count} handler={handler}/>
+        )}
+      />
       {/* /* <Greet/>
       <Welcome/> */}
       {/* <Message/> */}
