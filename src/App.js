@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import ClickCount from './components/ClickCount';
-import HoverCount from './components/HoverCount';
-import Fun from './components/Render'
+// import ClickCount from './components/ClickCount';
+// import HoverCount from './components/HoverCount';
+// import Fun from './components/Render'
 // import EbHero from './components/EbHero';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
@@ -22,12 +22,14 @@ import Fun from './components/Render'
 // import Form from './components/Form';
 // import Fragments from './components/Fragments';
 // import RefsDemo from './components/RefsDemo';
+import { UserProvider } from './components/Context';
+import ContextA from './components/ContextA';
 function App() {
   return (
     <div className="App">
       {/* <ClickCount/>
       <HoverCount/> */}
-      <Fun
+      {/* <Fun
         render={(count,handler)=>(
           <ClickCount count={count} handler={handler}/>
         )}
@@ -36,7 +38,7 @@ function App() {
         render={(count,handler)=>(
           <HoverCount count={count} handler={handler}/>
         )}
-      />
+      /> */}
       {/* /* <Greet/>
       <Welcome/> */}
       {/* <Message/> */}
@@ -61,6 +63,10 @@ function App() {
       <ErrorBoundary>
       <EbHero heroName='joker'/>
       </ErrorBoundary> */}
+
+      <UserProvider value="Krishna">
+        <ContextA />
+      </UserProvider>
     </div>
   );
 }
