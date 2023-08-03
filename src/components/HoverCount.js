@@ -3,10 +3,10 @@ import HigherOrderComp from './HigherOrderComp'
 
  class HoverCount extends Component {
   render() {
-    // const [count,handler]=this.props
+    const {count,handler}=this.props
     return (
    
-        <h1 onMouseOver={this.props.handler}>Hovered {this.props.count} times</h1>
+        <h1 onMouseOver={handler}>Hovered {count} times</h1>
     )
   }
 }
