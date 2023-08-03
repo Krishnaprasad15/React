@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import PostList from './components/PostList';
 // import ClickCount from './components/ClickCount';
 // import HoverCount from './components/HoverCount';
 // import Fun from './components/Render'
@@ -22,8 +23,8 @@ import './App.css';
 // import Form from './components/Form';
 // import Fragments from './components/Fragments';
 // import RefsDemo from './components/RefsDemo';
-import { UserProvider } from './components/Context';
-import ContextA from './components/ContextA';
+// import { UserProvider } from './components/Context';
+// import ContextA from './components/ContextA';
 function App() {
   return (
     <div className="App">
@@ -64,9 +65,11 @@ function App() {
       <EbHero heroName='joker'/>
       </ErrorBoundary> */}
 
-      <UserProvider value="Krishna">
+      {/* <UserProvider value="Krishna">
         <ContextA />
-      </UserProvider>
+      </UserProvider> */}
+
+      <PostList/>
     </div>
   );
 }
